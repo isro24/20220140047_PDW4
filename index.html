@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com/">
+</head>
+<body>
+    <div class="Notes">
+        <p class="poppins-medium">Kartu Selamat Ulang Tahun</p>
+        <div class="image-center">
+            <img class="image" src="ulangtahun.png" alt="Kue Ullang Tahun">
+
+        </div>
+
+        <p class="txt-waktu" id="hasil"></p>
+        <br>
+        <div class="poppins-regular">Ucapan Hari Ini</div>
+        <ul>
+            <li>Halo, Selamat Ulang Tahun MUNGKIN</li>
+            <li>Udah Kepala 2 Ya </li>
+            <li>Selamat Menikmati Masa Happy Anda</li>
+
+        </ul>
+        <br>
+        <button class= "costumButton" onclick="show()">Pencet Cuy</button>
+    </div>
+
+    <div id="hasil"></div>
+    <script>
+        let tanggal = new Date();
+        document.getElementById("hasil").innerHTML = tanggal;
+    </script>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

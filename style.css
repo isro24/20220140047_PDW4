@@ -41,7 +41,11 @@ body{
    text-align: center;
    align-items: center;
    display: flex;
+   filter: brightness(50%);
+}
 
+.image-center:hover{
+    filter: brightness(100%);
 }
 
 .image-center{animation: pulse 2s infinite;}

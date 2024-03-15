@@ -1,8 +1,10 @@
 body{
     background-image: url('bg.jpg');
     background-position: center;
-    height: 100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans';
 }
 
 .Notes{
@@ -13,7 +15,7 @@ body{
     position:absolute;
     width: 400px;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
     border-radius: 1px;
     box-shadow: 0px 0px 10px black;
@@ -39,6 +41,7 @@ body{
    text-align: center;
    align-items: center;
    display: flex;
+
 }
 
 .image-center{animation: pulse 2s infinite;}
@@ -53,7 +56,6 @@ body{
     align-items: center;
     display: flex;
     text-align: center;
-
     filter: drop-shadow(0px 0px 10px pink);
 }
 
